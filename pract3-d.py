@@ -18,6 +18,8 @@ def factorial_iteration(number):
     return fact
 
 if __name__ == '__main__':
-    userInput = 8
-    print('Factorial using Recursion of', userInput, 'is:', factorial(userInput))
-    print('Factorial using Iteration of', userInput, 'is:', factorial_iteration(userInput))
+    userInput = input('rec or iteration')
+    if userinput == 'rec'
+        print('Factorial using Recursion of', userInput, 'is:', factorial(input()))
+    elif unserInput  =='Iteration'  
+        print('Factorial using Iteration of', userInput, 'is:', factorial_iteration(input))
